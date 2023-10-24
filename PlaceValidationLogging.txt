@@ -27,8 +27,8 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:01 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:20 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "b28e19b0237242406d327000396958ed",
+    "place_id": "3d63c14f26b971fae2a585494dd13d2f",
     "scope": "APP",
-    "reference": "7cea00d046fea5d33a44256d5f5ccfb17cea00d046fea5d33a44256d5f5ccfb1",
-    "id": "7cea00d046fea5d33a44256d5f5ccfb1"
+    "reference": "a31fc5101de933c7de7b134215a61447a31fc5101de933c7de7b134215a61447",
+    "id": "a31fc5101de933c7de7b134215a61447"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=b28e19b0237242406d327000396958ed
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3d63c14f26b971fae2a585494dd13d2f
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=b28e19b0237242406d327000396958ed
+				place_id=3d63c14f26b971fae2a585494dd13d2f
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,8 +59,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:02 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -96,7 +96,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-"place_id":""+placeId+""b28e19b0237242406d327000396958ed",
+"place_id":""+placeId+""3d63c14f26b971fae2a585494dd13d2f",
 "name":"BestWestern",
 "address":"767 Bucharest",
 "website":"htpps://bw.com",
@@ -104,8 +104,8 @@ Body:
 }
 
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:03 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -114,6 +114,36 @@ Content-Length: 0
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "3d63c14f26b971fae2a585494dd13d2f"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Oct 2023 10:01:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
 Proxy:			<none>
@@ -143,8 +173,8 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:04 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:23 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -156,17 +186,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "3b35d34c7c7afb6c5e1c375c92fc1282",
+    "place_id": "e6c790d3fdab67a19faf6979d1f08eda",
     "scope": "APP",
-    "reference": "e5964a1a1784894020807717ff93e8dde5964a1a1784894020807717ff93e8dd",
-    "id": "e5964a1a1784894020807717ff93e8dd"
+    "reference": "7ff1ea0210cdf2fddd10f20ffa4d92b17ff1ea0210cdf2fddd10f20ffa4d92b1",
+    "id": "7ff1ea0210cdf2fddd10f20ffa4d92b1"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=3b35d34c7c7afb6c5e1c375c92fc1282
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e6c790d3fdab67a19faf6979d1f08eda
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=3b35d34c7c7afb6c5e1c375c92fc1282
+				place_id=e6c790d3fdab67a19faf6979d1f08eda
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -175,8 +205,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:05 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -212,7 +242,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-"place_id":""+placeId+""3b35d34c7c7afb6c5e1c375c92fc1282",
+"place_id":""+placeId+""e6c790d3fdab67a19faf6979d1f08eda",
 "name":"BestWestern",
 "address":"767 Bucharest",
 "website":"htpps://bw.com",
@@ -220,8 +250,8 @@ Body:
 }
 
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:06 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -230,6 +260,36 @@ Content-Length: 0
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json; charset=UTF-8
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "e6c790d3fdab67a19faf6979d1f08eda"
+}
+HTTP/1.1 200 OK
+Date: Tue, 24 Oct 2023 10:01:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
 Proxy:			<none>
@@ -259,8 +319,8 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:06 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:26 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -272,17 +332,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "72b3988ee3b06f06b2212aa0b8e8643e",
+    "place_id": "2f5aab49e08f92597f57cd00af285a68",
     "scope": "APP",
-    "reference": "13ba0f9c9eea54512832e77557cacfe313ba0f9c9eea54512832e77557cacfe3",
-    "id": "13ba0f9c9eea54512832e77557cacfe3"
+    "reference": "d14bb5009891af98b0c1e48cf1007262d14bb5009891af98b0c1e48cf1007262",
+    "id": "d14bb5009891af98b0c1e48cf1007262"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=72b3988ee3b06f06b2212aa0b8e8643e
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=2f5aab49e08f92597f57cd00af285a68
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=72b3988ee3b06f06b2212aa0b8e8643e
+				place_id=2f5aab49e08f92597f57cd00af285a68
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -291,8 +351,8 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:07 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:27 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -328,7 +388,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-"place_id":""+placeId+""72b3988ee3b06f06b2212aa0b8e8643e",
+"place_id":""+placeId+""2f5aab49e08f92597f57cd00af285a68",
 "name":"BestWestern",
 "address":"767 Bucharest",
 "website":"htpps://bw.com",
@@ -336,8 +396,8 @@ Body:
 }
 
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:08 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:28 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
@@ -359,11 +419,11 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "72b3988ee3b06f06b2212aa0b8e8643e"
+    "place_id": "2f5aab49e08f92597f57cd00af285a68"
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 09:29:09 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 10:01:28 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600

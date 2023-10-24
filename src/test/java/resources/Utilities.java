@@ -1,25 +1,28 @@
 package resources;
 
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 import java.io.*;
 import java.util.Properties;
 
 public class Utilities {
     public static RequestSpecification req;
+    public static ResponseSpecification resspec;
     public static RequestSpecification reqSpec;
     public static RequestSpecification reqSpecProd;
     public static RequestSpecification reqSpecOrder;
 
     public RequestSpecification requestSpecification() throws IOException {
         if(req == null) {
-            PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
+            PrintStream log = new PrintStream(new FileOutputStream("PlaceValidationLogging.txt"));
             req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl"))
                     .addQueryParam("key", "qaclick123")
                     .addFilter(RequestLoggingFilter.logRequestTo(log))
@@ -28,6 +31,11 @@ public class Utilities {
             return req;
         }
         return req;
+    }
+
+    public ResponseSpecification responseSpecification(){
+        return resspec = new ResponseSpecBuilder().expectStatusCode(200)
+                .expectContentType(ContentType.JSON).build();
     }
 
     public RequestSpecification reqSpecific() throws IOException {

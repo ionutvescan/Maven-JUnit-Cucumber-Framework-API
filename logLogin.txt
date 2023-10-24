@@ -15,8 +15,8 @@ Body:
     "userPassword": "dinamo"
 }
 HTTP/1.1 200 OK
-Date: Wed, 31 May 2023 08:44:46 GMT
-Server: Apache/2.4.41 (Ubuntu)
+Date: Tue, 24 Oct 2023 08:37:02 GMT
+Server: Apache/2.4.52 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
 Expect-CT: max-age=0
@@ -30,13 +30,13 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 359
-ETag: W/"167-Ozz0Rkz9l8onOVyqSqXLDonjfyE"
+ETag: W/"167-arLemUKC1S3CoDBkiwg56r41Vj4"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDIzZGZmZDU2OGMzZTlmYjE0MWNmYjEiLCJ1c2VyRW1haWwiOiJpLnZlc2Nhbjk2QHlhaG9vLmNvbSIsInVzZXJNb2JpbGUiOjc2ODY4Njg2ODYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2ODU1MjI2ODYsImV4cCI6MTcxNzA4MDI4Nn0.41ujtFoJtBR-fXK1KMB0ToAtZxYYM4jSB7KpCy9svgY",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDIzZGZmZDU2OGMzZTlmYjE0MWNmYjEiLCJ1c2VyRW1haWwiOiJpLnZlc2Nhbjk2QHlhaG9vLmNvbSIsInVzZXJNb2JpbGUiOjc2ODY4Njg2ODYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTgxMzY2MjIsImV4cCI6MTcyOTY5NDIyMn0.cwGSLGTMEGJIPNCZYwmE5IMGAWffT1sEHDz1_akRwBI",
     "userId": "6423dffd568c3e9fb141cfb1",
     "message": "Login Successfully"
 }
