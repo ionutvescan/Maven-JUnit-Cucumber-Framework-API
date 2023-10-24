@@ -1,21 +1,18 @@
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/6537b9727244490f95d60fe0
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
+Path params:	productId=6537b9727244490f95d60fe0
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDIzZGZmZDU2OGMzZTlmYjE0MWNmYjEiLCJ1c2VyRW1haWwiOiJpLnZlc2Nhbjk2QHlhaG9vLmNvbSIsInVzZXJNb2JpbGUiOjc2ODY4Njg2ODYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTgxNTA3NjksImV4cCI6MTcyOTcwODM2OX0.jkJ-PZqugn-CI-_I4yjtEv5J9zEDnVjQ2YScYGzJSio
+				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "userEmail": "i.vescan96@yahoo.com",
-    "userPassword": "dinamo"
-}
+Body:			<none>
 HTTP/1.1 200 OK
-Date: Tue, 24 Oct 2023 08:37:02 GMT
+Date: Tue, 24 Oct 2023 12:32:51 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -29,14 +26,12 @@ Referrer-Policy: no-referrer
 X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 359
-ETag: W/"167-arLemUKC1S3CoDBkiwg56r41Vj4"
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDIzZGZmZDU2OGMzZTlmYjE0MWNmYjEiLCJ1c2VyRW1haWwiOiJpLnZlc2Nhbjk2QHlhaG9vLmNvbSIsInVzZXJNb2JpbGUiOjc2ODY4Njg2ODYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTgxMzY2MjIsImV4cCI6MTcyOTY5NDIyMn0.cwGSLGTMEGJIPNCZYwmE5IMGAWffT1sEHDz1_akRwBI",
-    "userId": "6423dffd568c3e9fb141cfb1",
-    "message": "Login Successfully"
+    "message": "Product Deleted Successfully"
 }

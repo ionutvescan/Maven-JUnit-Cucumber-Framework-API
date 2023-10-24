@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import resources.APIResources;
-import resources.TestDataBuild;
+import resources.TestData;
 import resources.Utilities;
 
 import java.io.IOException;
@@ -17,14 +17,14 @@ import static org.junit.Assert.assertEquals;
 
 public class PlaceStepDefinition extends Utilities {
     RequestSpecification requestSpecification;
-    TestDataBuild testDataBuild = new TestDataBuild();
+    TestData testData = new TestData();
     Response response;
     static String place_id;
 
     @Given("add place payload with the following:{string},{string},{string}")
     public void addPlacePayloadWithTheFollowing(String name, String address, String website) throws IOException {
       requestSpecification = given().spec(requestSpecification())
-              .body(testDataBuild.addPlacePayload(name, address, website));
+              .body(testData.addPlacePayload(name, address, website));
     }
 
     @When("user calls {string} with {string} http request method")
@@ -64,14 +64,14 @@ public class PlaceStepDefinition extends Utilities {
     @And("using {string} change payload")
     public void usingChangePayload(String resource) throws IOException {
         requestSpecification = given().spec(requestSpecification())
-                .body(testDataBuild.updatePlacePayload(place_id,
+                .body(testData.updatePlacePayload(place_id,
                         "BestWestern", "767 Bucharest","htpps://bw.com" ));
         userCallsWithHttpRequestMethod(resource,"PUT");
     }
 
     @Then("using {string} delete place")
     public void usingDeletePlace(String resource) throws IOException {
-        requestSpecification = given().spec(requestSpecification()).body(testDataBuild.deletePlacePayload(place_id));
+        requestSpecification = given().spec(requestSpecification()).body(testData.deletePlacePayload(place_id));
         userCallsWithHttpRequestMethod(resource, "POST");
         theAPICallGotSuccessWithStatusCode(200);
         inResponseBodyIs("status","OK");

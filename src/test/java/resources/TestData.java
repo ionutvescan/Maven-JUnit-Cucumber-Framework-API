@@ -5,7 +5,7 @@ import pojoClasses.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestDataBuild {
+public class TestData {
     public AddPlace addPlacePayload(String name, String address, String website){
         AddPlace addPlace = new AddPlace();
         addPlace.setAccuracy(50);

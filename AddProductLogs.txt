@@ -1,0 +1,48 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productName=laptop
+				productAddedBy=6423dffd568c3e9fb141cfb1
+				productCategory=fashion
+				productSubCategory=shirts
+				productPrice=11500
+				productDescription=Lenovo
+				productFor=men
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDIzZGZmZDU2OGMzZTlmYjE0MWNmYjEiLCJ1c2VyRW1haWwiOiJpLnZlc2Nhbjk2QHlhaG9vLmNvbSIsInVzZXJNb2JpbGUiOjc2ODY4Njg2ODYsInVzZXJSb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE2OTgxNTA3NjksImV4cCI6MTcyOTcwODM2OX0.jkJ-PZqugn-CI-_I4yjtEv5J9zEDnVjQ2YScYGzJSio
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = laptop.jpg
+				Content-Type: application/octet-stream
+
+				laptop.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Tue, 24 Oct 2023 12:32:50 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-xwH4y9BRRnUR9x42adlxTXybqso"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "6537b9727244490f95d60fe0",
+    "message": "Product Added Successfully"
+}
